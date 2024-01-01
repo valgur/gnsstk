@@ -186,7 +186,11 @@ generate_export_header(gnsstk)
 include_directories(AFTER SYSTEM ${PROJECT_BINARY_DIR})
 install( FILES ${PROJECT_BINARY_DIR}/gnsstk_export.h DESTINATION ${CMAKE_INSTALL_INCLUDEDIR} )
 
-install( TARGETS gnsstk DESTINATION "${CMAKE_INSTALL_LIBDIR}" EXPORT "${EXPORT_TARGETS_FILENAME}" )
+install( TARGETS gnsstk
+    RUNTIME DESTINATION "${CMAKE_INSTALL_BINDIR}"
+    LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}"
+    ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}"
+    EXPORT "${EXPORT_TARGETS_FILENAME}" )
 
 # GNSSTk header file install target (whether it is version dependent changes based on user flag)
 install( FILES ${GNSSTK_INC_FILES} DESTINATION ${CMAKE_INSTALL_INCLUDEDIR} )
