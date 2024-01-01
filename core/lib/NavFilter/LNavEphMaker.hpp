@@ -39,6 +39,7 @@
 #ifndef LNAVEPHMAKER_HPP
 #define LNAVEPHMAKER_HPP
 
+#include <functional>
 #include "NavFilter.hpp"
 #include "LNavFilterData.hpp"
 

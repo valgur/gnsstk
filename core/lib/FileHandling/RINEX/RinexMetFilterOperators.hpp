@@ -44,6 +44,7 @@
 #ifndef GNSSTK_RINEXMETFILTEROPERATORS_HPP
 #define GNSSTK_RINEXMETFILTEROPERATORS_HPP
 
+#include <functional>
 #include <set>
 
 #include "CivilTime.hpp"

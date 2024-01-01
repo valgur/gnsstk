@@ -51,6 +51,7 @@
 #include "RinexNavHeader.hpp"
 #include "GPSWeekSecond.hpp"
 
+#include <functional>
 #include <set>
 
 namespace gnsstk

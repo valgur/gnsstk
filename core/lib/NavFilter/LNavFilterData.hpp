@@ -40,6 +40,7 @@
 #define LNAVFILTERDATA_HPP
 
 #include <stdint.h>
+#include <functional>
 #include "NavFilterKey.hpp"
 
 namespace gnsstk

@@ -39,6 +39,7 @@
 #ifndef LNAVORDERFILTER_HPP
 #define LNAVORDERFILTER_HPP
 
+#include <functional>
 #include "NavFilterMgr.hpp"
 #include "NavFilter.hpp"
 #include "LNavFilterData.hpp"

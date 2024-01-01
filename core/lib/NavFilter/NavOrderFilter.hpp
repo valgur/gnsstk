@@ -39,6 +39,7 @@
 #ifndef NAVORDERFILTER_HPP
 #define NAVORDERFILTER_HPP
 
+#include <functional>
 #include "NavFilterMgr.hpp"
 #include "NavFilter.hpp"
 #include "NavFilterKey.hpp"

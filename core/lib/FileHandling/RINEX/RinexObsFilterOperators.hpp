@@ -50,6 +50,7 @@
 
 #include <set>
 #include <algorithm>
+#include <functional>
 
 namespace gnsstk
 {

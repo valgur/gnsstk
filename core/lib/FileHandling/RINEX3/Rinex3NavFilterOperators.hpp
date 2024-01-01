@@ -47,6 +47,7 @@
 #include <set>
 #include <list>
 #include <string>
+#include <functional>
 
 #include "FileFilter.hpp"
 #include "Rinex3NavData.hpp"

@@ -40,6 +40,7 @@
 #define CNAVFILTERDATA_HPP
 
 #include <stdint.h>
+#include <functional>
 #include "NavFilterKey.hpp"
 #include "PackedNavBits.hpp"
 

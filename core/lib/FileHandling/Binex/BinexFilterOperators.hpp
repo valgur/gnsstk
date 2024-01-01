@@ -47,7 +47,7 @@
 #include "FileFilter.hpp"
 #include "BinexData.hpp"
 
-#include <set>
+#include <functional>
 
 namespace gnsstk
 {

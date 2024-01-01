@@ -46,6 +46,7 @@
 
 #include <set>
 #include <algorithm>
+#include <functional>
 
 #include "FileFilter.hpp"
 #include "Rinex3ObsData.hpp"
